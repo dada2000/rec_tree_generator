@@ -20,3 +20,4 @@
 * *IN GENERAL*: Tree generation uses **indirect recursion**: alternates for-loop iteration(for files and directories) with recursively calling tree_body() method for each subsquent directory.
 * Efficient use of Python's pathlib and argparse libraries and its handy features to check file/folder properties as well as iterating(*non-recursively*) through a directory's content. Argparse library provides a complete ecosystem to capture&evaluate positional and optional arguments (e.g. -d, --output_file, --version, ...) which dynamically determine the execution flow of the Python script and its outputs.
 
+23
